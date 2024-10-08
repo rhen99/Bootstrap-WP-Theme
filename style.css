@@ -1,0 +1,24 @@
+/*
+Theme Name: Bootstrap WP Theme
+Author: Ey Rhen
+Description: This is a simple Bootstrap 5 theme.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bootstrapwptheme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.categories,
+.categories ul {
+  list-style: none;
+}
+.categories ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.categories ul li {
+  padding: 0 0.5rem;
+}
+.categories h6 {
+  text-align: center;
+}
